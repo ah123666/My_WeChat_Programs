@@ -1,0 +1,35 @@
+.box{
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.boxHover{
+  background: yellowgreen;
+}
+
+.item{
+  width: 50px;
+  height: 50px;
+  background: gold;
+
+}
+
+.itemHover{
+  background: hotpink;
+}
+
+.out view{color: blue; display: inline;}
+/* .img1{width: 200px; height: 100px;} */
+image{width: 100%;}
+
+.link{
+  height: 40px;
+}
+
+.scrout{border: 1px solid green; display: flex; flex-wrap: nowrap;}
+.scrbox{width: 100px; height: 100px; background: gold; margin-right: 2px;
+flex: 0 0 100px;}
+
+.scroll2{height: 350px;}
+.scrbox2{width: 100%; height: 100px; background: pink; margin-bottom: 1px;}

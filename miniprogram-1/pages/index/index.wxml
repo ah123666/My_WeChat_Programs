@@ -1,0 +1,48 @@
+<view class="box" hover-class="boxHover"
+hover-start-time="50" hover-stay-time="50">
+  <view class="item" hover-class="itemHover" hover-stop-propagation>
+  1111
+  </view>
+新视觉实训
+</view>
+
+<navigator url="/pages/demo/demo" open-type="switchTab" style="width:200rpx; height:200rpx">跳转到demo</navigator>
+<button type="primary" bindtap="clickBtn">跳转到日志</button>
+
+<view class="out">
+  <text selectable>新视觉实训基地</text> 
+  <text>微信<text decode>&nbsp; &lt;</text>小程序课程</text>
+</view>
+
+<scroll-view scroll-x>
+  <view class="scrout">
+    <view class="scrbox">111</view>
+    <view class="scrbox">222</view>
+    <view class="scrbox">333</view>
+    <view class="scrbox">444</view>
+    <view class="scrbox">555</view>
+  </view>
+</scroll-view>
+
+<scroll-view class="scroll2" scroll-y scroll-top="150">
+  <view class="scrout2">
+    <view class="scrbox2">111</view>
+    <view class="scrbox2">222</view>
+    <view class="scrbox2">333</view>
+    <view class="scrbox2">444</view>
+    <view class="scrbox2">555</view>
+  </view>
+</scroll-view>
+
+<view>
+  <navigator class="link" url="/pages/logs/logs" open-type="reLaunch">跳转到日志</navigator>
+  <!-- <navigator class="link" url="https://www.baidu.com">跳转到网站</navigator>
+  无法访问外网 -->
+</view>
+
+<image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3363295869,2467511306&fm=26&gp=0.jpg"></image>
+<image class="img1" src="/images/img1.jpg"></image>
+<image mode="widthFix" src="../../images/img2.png" show-menu-by-longpress></image>
+
+<text selectable space="ensp">1234512345   123451234512345</text>
+<view>6789067890   678906789067890</view>

@@ -1,0 +1,10 @@
+/* pages/demo/demo.wxss */
+.banner{height: 200px; border: 1px solid red;}
+.banner image{width: 100%;}
+.bannerItem{padding: 0 5px; box-sizing: border-box;}
+button{margin: 10rpx 0;}
+.ipt{border: 2px solid blue; height: 50rpx; margin: 10rpx 10rpx; background: powderblue;}
+.iptPlace{color: #fff; font-size: 24rpx;}
+.button1{
+  width: 50%;
+}

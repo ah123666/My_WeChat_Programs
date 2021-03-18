@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTitleText": "demo-project",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#EE82EE",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/butterfly1.png",
+        "selectedIconPath": "images/butterfly2.png"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "案例",
+        "iconPath": "images/demo1.png",
+        "selectedIconPath": "images/demo2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/letter1.png",
+        "selectedIconPath": "images/letter2.png"
+      }
+    ],
+    "color": "#c30",
+    "selectedColor": "#0ff",
+    "backgroundColor": "#ccc",
+    "borderStyle": "white",
+    "position": "bottom"
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

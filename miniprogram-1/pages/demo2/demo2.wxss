@@ -1,0 +1,5 @@
+/* pages/demo2/demo2.wxss */
+.title{
+  font-size: 24px;
+  text-align: center;
+}

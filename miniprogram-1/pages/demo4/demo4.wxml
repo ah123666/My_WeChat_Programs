@@ -1,0 +1,9 @@
+<!--pages/demo4/demo4.wxml-->
+<text>pages/demo4/demo4.wxml</text>
+<navigator url="/pages/demo3/demo3">跳转到demo3</navigator>
+<!-- <view style="height:1000px; background:red"></view> -->
+<view bindtap="myTap" data-name="微信小程序"
+style="width:200rpx; height:200rpx; background:red">{{name}}</view> 
+
+<view style="transition:0.5s; height:{{height}}rpx; width:{{width}}rpx; background:{{backGroundColor}}">{{title}}-{{content}}</view>
+<button type="primary" bindtap="btnTap">点击</button>

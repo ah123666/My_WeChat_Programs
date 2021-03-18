@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/demo2/demo2",
+    "pages/news/news",
+    "pages/logs/logs",
+    "pages/demo/demo",
+    "pages/demo3/demo3",
+    "pages/demo4/demo4",
+    "pages/demo6/demo6"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#EE82EE"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/butterfly1.png",
+        "selectedIconPath": "images/butterfly2.png"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "案例",
+        "iconPath": "images/demo1.png",
+        "selectedIconPath": "images/demo2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/letter1.png",
+        "selectedIconPath": "images/letter2.png"
+      }
+    ],
+    "color": "#c30",
+    "selectedColor": "#0ff",
+    "backgroundColor": "#ccc",
+    "borderStyle": "white",
+    "position": "bottom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

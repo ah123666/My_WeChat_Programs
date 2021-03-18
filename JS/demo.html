@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // const str = "海洋研究院";
+        // str = "微信小程序"
+        // console.log(str)
+        // if(true){
+        //     let num = 3;
+        // }
+        // console.log(num); //在外面访问不到let定义的变量
+        // var name = "李四"
+        // var age = 19
+        // var sex = "女"
+        // // var obj = "我的名字是"+name+", 我的年龄是"+age+", 我是"+sex+"生。"
+        // var obj = `我的名字是${name}, 我的年龄是${age}, 我是${sex}生。`
+        // var ele = `
+        // <h1>
+        //     海洋
+        //     <em>
+        //         研究
+        //     </em>
+        //     院
+        // </h1>`
+        // document.write(ele)
+
+        //数组解构
+        // var arr = [1111,2222,3333,4444];
+        // [a,b] = arr
+        // console.log(a,b)
+
+        //对象解构
+        // var data={
+        //     name:"王五",
+        //     age:30,
+        //     sex:"男",
+        //     job:"web前端开发"
+        // };
+        // var {name, job}=data;
+        // console.log(name,job)
+
+        var obj={
+            name:"张三",
+            fun:function(){
+                console.log(this.name + "---这是函数")
+            },
+            fun2(){
+                var that = this
+                setTimeout(function(){
+                    console.log(that.name + "---这是函数")
+                }, 1000)
+            },
+            fun3(){
+                setTimeout(()=>{
+                    console.log(this.name + "---这是函数")
+                }, 1000)
+            }
+        }
+
+        obj.fun2()
+        obj.fun3()
+
+
+        function fun3(){
+            console.log("这是fun3")
+        }
+        // fun3()
+
+
+    </script>>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+<!--pages/demo/demo.wxml-->
+<view style="padding: 50px; text-align: center">
+  <icon type="success" size="50"></icon>
+  <view>提交成功，感谢你的配合！</view>
+</view>
+
+<view style="paddding: 50px">
+  <progress percent="60" show-info font-size="25" border-radius="25" activeColor="red"
+  backgroundColor="blue" active> </progress>
+</view>

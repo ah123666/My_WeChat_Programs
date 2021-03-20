@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#ccc",
+    "navigationBarBackgroundColor": "#007BDE",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/welcome/welcome",
+        "text": "欢迎页",
+        "iconPath": "icon/icon_home@3x.png",
+        "selectedIconPath": "icon/icon_home_active@3x.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志页",
+        "iconPath": "icon/icon_category@3x.png",
+        "selectedIconPath": "icon/icon_category_active@3x.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 5000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

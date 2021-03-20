@@ -124,7 +124,7 @@
   <view class="container">
     <PubTitle myTitle="行业动态" myUrl="/pages/ps/ps"/>
 
-    <view class="dyMain" wx:for="{{dataList}}">
+    <view class="dyMain" wx:for="{{dataList}}" wx:key="index">
       <navigator class="dyItem">
         <view class="pic">
           <image src="{{item.picurl}}"></image>

@@ -8,10 +8,7 @@ Page({
     dataList: []
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+  getRequest(){
     //发送网络请求，获取数据
     wx.request({
       url: 'https://ku.qingnian8.com/school/list.php',
@@ -35,6 +32,13 @@ Page({
         })
       }
     })
+  },
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+    this.getRequest()
   },
 
   /**

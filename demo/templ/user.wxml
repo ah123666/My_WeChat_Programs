@@ -1,0 +1,6 @@
+<!--include 相当于复制代码-->
+<view>
+  <view>ID: {{item.ID}}</view>
+  <view>姓名: {{item.name}}</view>
+  <view>年龄: {{item.age}}</view>
+</view>

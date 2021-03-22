@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/templ2/templ2",
+    "pages/template/template",
     "pages/bind/bind",
     "pages/welcome/welcome",
     "pages/index/index",

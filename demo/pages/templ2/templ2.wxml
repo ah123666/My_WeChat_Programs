@@ -1,0 +1,7 @@
+<!--引用include  动态文件（js, wxs）用相对地址"../../", 静态文件（wxml, wxss）用绝对地址"/"-->
+<include src="/templ/user.wxml"></include>
+
+<!--引用import-->
+<import src="/templ/user_import.wxml"></import>
+<!--调用-->
+<template is="user" data="{{item}}"></template>

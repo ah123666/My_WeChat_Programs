@@ -1,0 +1,20 @@
+<!-- 定义模板 -->
+<template name="user">
+  <view>
+    <view>ID: {{item.ID}}</view>
+    <view>姓名: {{item.name}}</view>
+    <view>年龄: {{item.age}}</view>
+  </view>
+</template>
+<!-- 调用 -->
+<template is="user" data="{{item}}"></template>
+
+<template name="user1">
+  <view>
+    <view>ID: {{ID}}</view>
+    <view>姓名: {{name}}</view>
+    <view>年龄: {{age}}</view>
+  </view>
+</template>
+
+<template is="user1" data="{{...item}}"></template>

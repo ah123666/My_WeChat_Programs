@@ -1,0 +1,6 @@
+<view class="box">
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+  <!-- <view>D</view> -->
+</view>

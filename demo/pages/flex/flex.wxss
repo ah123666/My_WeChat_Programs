@@ -1,0 +1,39 @@
+
+.box{
+  background: #abcdef;
+  height: 500rpx;
+  /* flex布局 */
+  display: flex;
+  /* 默认为水平主轴 */
+  flex-direction: row;
+  /* flex-direction: column; */
+  /* 允许换行 */
+  flex-wrap: wrap;
+  /* 左边 */
+  /* justify-content: flex-start; */
+  /* 中间 */
+  justify-content: center;
+  /* 右边 */
+  /* justify-content: flex-end; */
+  /* 两端对齐 */
+  /* justify-content: space-between; */
+  /* 间隔相等 */
+  /* justify-content: space-around; */
+
+  /* 交叉轴 */
+  /* 顶部 */
+  /* align-items: flex-start; */
+  /* 中间 */
+  align-items: center;
+  /* 底部 */
+  /* align-items: flex-end; */
+
+
+
+}
+
+.box view{
+  width: 200rpx;
+  height: 200rpx;
+  background: red;
+}

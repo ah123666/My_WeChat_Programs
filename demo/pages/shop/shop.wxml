@@ -1,0 +1,16 @@
+<view class="sousuo">
+  <view class="iconfont icon-zujian-icon-32"></view>
+  <view class="iconfont icon-sousuo">搜索</view>
+  <view>登录</view>
+</view>
+
+<!-- 轮播图 -->
+<image src="/icon/1.jpg"></image>
+
+<!-- 图标 -->
+<view>
+  <view>
+    <image src="/icon/1.png"></image>
+    <view>超市</view>
+  </view>
+</view>

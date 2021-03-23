@@ -1,0 +1,39 @@
+@import '/style/font.wxss';
+
+/* 全局设置  */
+page{
+  font-size: 16px;
+}
+
+.sousuo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #CD2525;
+  color:white
+}
+
+.sousuo view:nth-of-type(1){
+  margin-left: 12rpx;
+}
+
+.sousuo view:nth-of-type(2){
+  height: 60rpx;
+  width: 550rpx;
+  line-height: 60rpx;
+  background: white;
+  border-radius: 50rpx;
+  color:#ccc;
+  padding-left: 20rpx;
+}
+
+.sousuo view:nth-of-type(3){
+  margin-right: 12rpx;
+}
+
+image{
+  width: 750rpx;
+  height: 366rpx;
+}

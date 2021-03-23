@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/shop/shop",
+    "pages/flex/flex",
     "pages/wxss/wxss",
     "pages/templ2/templ2",
     "pages/template/template",
@@ -11,7 +13,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "backgroundColor": "#ccc",
-    "navigationBarBackgroundColor": "#007BDE",
+    "navigationBarBackgroundColor": "#CD2525",
     "navigationBarTitleText": "微信小程序",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh": true

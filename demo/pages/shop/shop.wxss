@@ -33,7 +33,36 @@ page{
   margin-right: 12rpx;
 }
 
-image{
+.banner{width: 100%; height: 277rpx;}
+.banner swiper{height: 100%; width: 100%;}
+.banner image{width: 100%; height: 277rpx;}
+
+.icon-box{
+  position: relative;
+}
+
+.icon{
   width: 750rpx;
-  height: 366rpx;
+  height: 322rpx;
+  background: white;
+  border-radius: 50rpx;
+  position: absolute;
+  top: -30rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.icon-item{
+  width: 150rpx;
+  height: 150rpx;
+  color: rgb(102,102,102);
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon-item image{
+  width: 80rpx;
+  height: 80rpx;
 }

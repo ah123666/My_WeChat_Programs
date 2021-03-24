@@ -14,7 +14,7 @@
     "backgroundTextStyle":"light",
     "backgroundColor": "#ccc",
     "navigationBarBackgroundColor": "#CD2525",
-    "navigationBarTitleText": "微信小程序",
+    "navigationBarTitleText": "京东商城",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh": true
   },

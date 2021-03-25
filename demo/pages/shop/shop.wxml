@@ -8,20 +8,35 @@
 <view class="banner">
   <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff"
   circular autoplay interval="3000">
-    <swiper-item><image src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/162082/21/14500/135739/605aab46Ecbdcac6d/e1ba2237e7bc7ce0.jpg!q70.jpg.dpg"></image></swiper-item>
-    <swiper-item><image src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/170764/13/13979/173167/60583796E94e31fb9/cdb770c32bf381bf.png!q70.jpg.dpg"></image></swiper-item>
-    <swiper-item><image src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/164527/4/9204/172306/603fd9e3E40d8d22f/d3e4d89226b6fb6f.jpg!cr_1125x445_0_171!q70.jpg.dpg"></image></swiper-item>
+    <block wx:for="{{swiper_images}}" wx:key="index">
+      <swiper-item><image src="{{item.url}}"></image></swiper-item>
+    </block>
   </swiper>
 </view>
 
 <!-- 图标 -->
 <view class="icon-box">
   <view class="icon">
-    <block wx:for="{{10}}" wx:key="icon">
+    <block wx:for="{{icon_items}}" wx:key="icon">
       <view class="icon-item">
-        <image src="/icon/1.png"></image>
-        <view>京东超市</view>
+        <image src="{{item.image_url}}"></image>
+        <view>{{item.txt}}</view>
       </view>
     </block>
   </view>
+</view>
+
+<view class="items1_out">
+  
+  <view class="big_title">
+    <view><text space="ensp">来电好货   国潮风潮</text></view>
+  </view>
+
+  <view class="items1_box">
+    <view class="item1" wx:for="{{items1}}" wx:key="index">
+      <view>{{item.txt}}</view>
+      <image class="pic" src="{{item.image_url}}"></image>
+    </view>
+  </view>
+
 </view>

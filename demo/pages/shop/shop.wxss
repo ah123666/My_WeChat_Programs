@@ -3,6 +3,7 @@
 /* 全局设置  */
 page{
   font-size: 16px;
+  background: #F6F6F6;
 }
 
 .sousuo{
@@ -38,16 +39,16 @@ page{
 .banner image{width: 100%; height: 277rpx;}
 
 .icon-box{
-  position: relative;
+  /* position: relative; */
 }
 
 .icon{
   width: 750rpx;
   height: 322rpx;
-  background: white;
-  border-radius: 50rpx;
-  position: absolute;
-  top: -30rpx;
+  background: #F6F6F6;
+  /* border-radius: 50rpx; */
+  /* position: absolute; */
+  /* top: -30rpx; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -65,4 +66,35 @@ page{
 .icon-item image{
   width: 80rpx;
   height: 80rpx;
+}
+
+.items1_out{
+  height: 350rpx;
+  background: white;
+}
+.items1_out .big_title{
+  font-size: 22.5px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.items1_out .items1_box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+}
+.items1_out .items1_box .item1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 190rpx;
+  height: 225rpx;
+}
+.items1_out .items1_box .item1 .pic{
+  width: 170rpx;
+  height: 170rpx;
 }

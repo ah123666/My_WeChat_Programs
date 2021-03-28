@@ -1,0 +1,21 @@
+<view bind:tap="click">别摸我</view>
+
+<!-- 冒泡 -->
+<view bind:tap="click">父级
+    <view bind:tap="click2">
+        子级
+    </view>
+</view>
+
+<!-- 非冒泡 -->
+<view catch:tap="click">父级
+    <view catch:tap="click2">
+        子级
+    </view>
+</view>
+
+<view bind:tap="click" data-name="小明">小明</view>
+<view bind:tap="click" data-name="张三">张三</view>
+<view bind:tap="click">
+    <view data-name="李四">李四</view>
+</view>

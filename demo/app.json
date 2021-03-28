@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/evt/evt",
     "pages/shop/shop",
     "pages/flex/flex",
     "pages/wxss/wxss",

@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/tab/tab",
+    "pages/attrType/attrType",
     "pages/evt/evt",
     "pages/shop/shop",
     "pages/flex/flex",

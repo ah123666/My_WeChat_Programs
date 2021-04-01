@@ -1,0 +1,11 @@
+<view class="nav">
+    <view class="{{style[0]}}" data-index="{{0}}" bind:tap="tap">商品介绍</view>
+    <view class="{{style[1]}}" data-index="{{1}}" bind:tap="tap">规格参数</view>
+    <view class="{{style[2]}}" data-index="{{2}}" bind:tap="tap">售后保障</view>
+</view>
+
+<view>
+    <view hidden="{{hidden[0]}}">商品介绍11111111111111111</view>
+    <view hidden="{{hidden[1]}}">规格参数22222222222222222</view>
+    <view hidden="{{hidden[2]}}">售后保障33333333333333333</view>
+</view>

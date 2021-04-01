@@ -1,0 +1,41 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/template/template",
+          "pathName": "pages/template/template",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/templ2/templ2",
+          "pathName": "pages/templ2/templ2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/wxss/wxss",
+          "pathName": "pages/wxss/wxss",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/flex/flex",
+          "pathName": "pages/flex/flex",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

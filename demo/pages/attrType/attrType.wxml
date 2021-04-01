@@ -1,0 +1,5 @@
+<view data-name="aaa" bind:tap="click">点击看类型</view>
+<view data-name="{{111}}" bind:tap="click">点击看类型</view>
+<view data-name="{{true}}" bind:tap="click">点击看类型</view>
+<view data-name="{{[1,2,3]}}" bind:tap="click">点击看类型</view>
+<view data-name="{{ {name: '小明'} }}" bind:tap="click">点击看类型</view>
